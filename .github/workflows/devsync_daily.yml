@@ -1,4 +1,5 @@
-name: DevSync Daily Update
+name: DevSync 24f2004213@ds.study.iitm.ac.in
+run-name: Daily Update by 24f2004213@ds.study.iitm.ac.in
 on:
   push:
   schedule:
@@ -10,17 +11,17 @@ permissions:
 
 jobs:
   daily_commit:
+    name: Job for 24f2004213@ds.study.iitm.ac.in
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # This is the EXACT step name the portal is looking for
       - name: 24f2004213@ds.study.iitm.ac.in
         run: |
           git config --global user.name "DevSync Automation"
           git config --global user.email "24f2004213@ds.study.iitm.ac.in"
           echo "Activity log for: $(date)" > daily_log.txt
           git add daily_log.txt
-          git commit -m "chore: update activity log" || echo "No changes to commit"
+          git commit -m "chore: update activity log for 24f2004213@ds.study.iitm.ac.in" || echo "No changes"
           git push
