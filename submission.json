@@ -1,0 +1,7 @@
+{
+  "prompt": "An expansive, top-down aerial photograph of a dense, vibrant emerald rainforest canopy. The lush greenery is brutally interrupted by massive, unnatural, jagged geometric voids of barren, ash-grey and rust-red earth. The pattern of the cleared land resembles a spreading necrotic disease or rigid mechanical scars carving into living tissue, with the negative space resembling a sterile barcode consuming the forest. High contrast, hyper-detailed, haunting, cinematic lighting, a stark visual representation of irreversible ecological erasure. --ar 16:9 --style raw --v 6.1",
+  "model": "Midjourney v6.1",
+  "dataset_name": "Terrabrasilis PRODES - Amazon Deforestation Data",
+  "dataset_url": "https://terrabrasilis.dpi.inpe.br/downloads/",
+  "insight": "The systematic, mechanical clearing of the Amazon rainforest is carving irreversible, sterile geometric scars into a once-vibrant living ecosystem."
+}
